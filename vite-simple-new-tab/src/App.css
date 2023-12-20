@@ -4,9 +4,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #d7e3fc;
 }
 
-.Header {
-  font-size: 10px;
-  padding: 10px;
+.Graph {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
 }

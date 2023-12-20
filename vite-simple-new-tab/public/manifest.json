@@ -1,10 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "bozolol New Tab",
+  "name": "stream new tab",
   "version": "1.0.0",
-  "description": "A bare bones new tab replacement for Chrome.",
+  "description": "A bare bones new tab for Chrome with an interactive stream graph art.",
   "permissions": ["tabs"],
   "chrome_url_overrides": {
     "newtab": "index.html"
+  },
+  "icons": {
+    "32": "waves-32.png",
+    "64": "waves-64.png",
+    "512": "waves-512.png"
   }
 }

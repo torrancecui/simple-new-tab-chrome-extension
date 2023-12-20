@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <div className='App'>
-        <ParentSize>{({ width, height }) => <Streamgraph width={width} height={height} />}</ParentSize>
+        <div className='Graph'>
+          <ParentSize>{({ width, height }) => <Streamgraph width={width} height={height} />}</ParentSize>
+        </div>
       </div>
     </>
   )
