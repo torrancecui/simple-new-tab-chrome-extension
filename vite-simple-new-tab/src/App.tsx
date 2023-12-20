@@ -4,8 +4,10 @@ function App() {
 
   return (
     <>
-      <div>
-        <p>hello.</p>
+      <div className='App'>
+        <div className='Header'>
+          <p>你好。</p>
+        </div>
       </div>
     </>
   )
