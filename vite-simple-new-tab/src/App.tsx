@@ -1,12 +1,12 @@
 import './App.css'
+import ParentSize from '@visx/responsive/lib/components/ParentSize';
+import Streamgraph from './Streamgraph'
 
 function App() {
   return (
     <>
       <div className='App'>
-        <div className='Header'>
-          <p>》「。。。】o 》</p>
-        </div>
+        <ParentSize>{({ width, height }) => <Streamgraph width={width} height={height} />}</ParentSize>
       </div>
     </>
   )
