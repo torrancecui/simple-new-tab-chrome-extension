@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "bozo new tab",
+  "version": "1.0.0",
+  "description": "A simplified new tab for chrome.",
+  "permissions": ["tabs"],
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
+  }
+}
