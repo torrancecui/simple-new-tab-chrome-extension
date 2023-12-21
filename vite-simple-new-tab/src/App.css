@@ -11,4 +11,5 @@
   height: 70vh;
   width: 100vw;
   display: flex;
+  cursor: pointer;
 }

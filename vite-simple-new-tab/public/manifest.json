@@ -3,7 +3,6 @@
   "name": "stream new tab",
   "version": "1.0.0",
   "description": "A bare bones new tab for Chrome with an interactive stream graph art.",
-  "permissions": ["tabs"],
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
