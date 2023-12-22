@@ -1,5 +1,5 @@
 {
-  "manifest_version": 4,
+  "manifest_version": 3,
   "name": "stream new tab",
   "version": "1.0.1",
   "description": "Replaces default Chrome new tab.",
