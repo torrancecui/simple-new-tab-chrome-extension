@@ -1,8 +1,8 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 4,
   "name": "stream new tab",
-  "version": "1.0.0",
-  "description": "A bare bones new tab for Chrome with an interactive stream graph art.",
+  "version": "1.0.1",
+  "description": "Replaces default Chrome new tab.",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
