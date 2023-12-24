@@ -9,4 +9,4 @@ Stream graph art was inspired by Airbnb's Visx library - https://airbnb.io/visx/
 You can download it here: https://chromewebstore.google.com/detail/stream-new-tab/phogcidiapcmlbffgleeecppfaefpeke
 
 
-![Alt text](https://github.com/torrancecui/simple-new-tab-chrome-extension/blob/main/screenshot.jpeg)
+![Alt text](https://github.com/torrancecui/simple-new-tab-chrome-extension/blob/main/screenshotNight.png)
