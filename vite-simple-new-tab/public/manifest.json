@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "stream new tab",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Replaces default Chrome new tab.",
   "chrome_url_overrides": {
     "newtab": "index.html"
