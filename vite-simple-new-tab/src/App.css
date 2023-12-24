@@ -5,18 +5,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #d7e3fc;
 }
 
 .Clock {
-  color: #2b2d42;
   font-size: 4vh;
   user-select: none;
+}
+
+.Time {
+  display: inline-block;
+}
+
+.Symbol {
+  display: inline-block;
 }
 
 .Graph {
   height: 70vh;
   width: 100vw;
-  cursor: pointer;
   opacity: 0.85;
 }

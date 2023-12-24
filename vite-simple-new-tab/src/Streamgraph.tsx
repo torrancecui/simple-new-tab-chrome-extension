@@ -16,7 +16,6 @@ import generateRandomColorArray from './generateColorPalette';
 const NUM_LAYERS = 20;
 const SAMPLES_PER_LAYER = 200;
 const BUMPS_PER_LAYER = 10;
-export const BACKGROUND = '#d7e3fc';
 
 // utils
 const range = (n: number) => Array.from(new Array(n), (_, i) => i);
@@ -47,9 +46,10 @@ export type StreamGraphProps = {
     width: number;
     height: number;
     animate?: boolean;
+    backgroundColor?: string;
 };
 
-export default function Streamgraph({ width, height, animate = true }: StreamGraphProps) {
+export default function Streamgraph({ width, height, animate = true, backgroundColor = "#fff" }: StreamGraphProps) {
     const forceUpdate = useForceUpdate();
     const handlePress = () => forceUpdate();
 
@@ -66,7 +66,7 @@ export default function Streamgraph({ width, height, animate = true }: StreamGra
     return (
         <svg width={width} height={height}>
             <g onClick={handlePress} onTouchStart={handlePress}>
-                <rect x={0} y={0} width={width} height={height} fill={BACKGROUND} rx={14} />
+                <rect x={0} y={0} width={width} height={height} fill={backgroundColor} rx={14} />
                 <Stack<number[], number>
                     data={layers}
                     keys={keys}
