@@ -2,7 +2,6 @@ import './App.css'
 import ParentSize from '@visx/responsive/lib/components/ParentSize';
 import Streamgraph from './Streamgraph'
 import Clock from './Clock';
-import AnimatedCursor from "react-animated-cursor";
 
 import { useRef } from "react";
 import gsap from "gsap";
@@ -29,7 +28,6 @@ function App() {
         backgroundColor: backgroundColor,
         color: textColor
       }}>
-        <AnimatedCursor outerScale={4}></AnimatedCursor>
         <div className='Clock'>
           <Clock isDayTime={isDayTime}></Clock>
         </div>
